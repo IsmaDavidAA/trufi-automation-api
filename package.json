@@ -1,0 +1,35 @@
+{
+  "name": "trufi-api-automation",
+  "version": "1.0.0",
+  "description": "Framework de testing automatizado para Trufi App Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose",
+    "test:health": "jest src/tests/health.test.ts",
+    "test:routing": "jest src/tests/routing.test.ts"
+  },
+  "keywords": [
+    "testing",
+    "api",
+    "jest",
+    "typescript",
+    "trufi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.10.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.2",
+    "jest-html-reporters": "^3.1.5"
+  }
+}
+
